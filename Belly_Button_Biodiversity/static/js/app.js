@@ -113,7 +113,8 @@ function buildCharts(sample) {
             marker: {
                 color: data.otu_ids,
                 size: data.sample_values,
-                sizeref: 1.3
+                sizeref: 1.3,
+		colorscale: 'Earth' 
             }
         };
         var bubbleData = [bubbleTrace1];
